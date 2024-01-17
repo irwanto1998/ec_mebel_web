@@ -1,0 +1,274 @@
+@import url('materialize.css');
+
+body{
+	overflow-x: hidden;
+	background: #f7f7f7;
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	border:0;
+}
+
+.leftbar{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 57px;
+	-webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+}
+.leftbar-brand,
+.drop-button,
+.leftbar-brand:hover,
+.drop-button:hover,
+.drop-button:focus{
+	text-decoration: none;
+	color: #FFF;
+}
+.leftbar-brand{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.drop-button{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.drop-user .dropdown-menu{
+	left: -90px !important;
+	top: 50px;
+	flex-direction: column;
+	border:0;
+	padding: 0;
+	transition: .5s ease;
+}
+.drop-user .dropdown-menu .dropdown-item{
+	display: block;
+	padding: 12px 10px;
+	text-decoration: none;
+}
+.drop-user .dropdown-menu .dropdown-item:hover{
+	background: rgba(0,0,0,.2);
+	text-decoration: none;
+}
+
+
+
+
+aside.content{
+	display: block;
+	width: 100%;
+	height: 100vh;
+	height: auto;
+	box-sizing: border-box;
+	margin: 57px 0 20px 0;
+	background: #f7f7f7;
+	padding: 20px;
+
+}
+aside.content .content-title{
+	display: block;
+	margin-bottom: 50px;
+}
+.feature-img{
+	width: 100%;
+	height: 200px;
+}
+.modal{
+	z-index: 9999 !important;
+}
+.modal-dialog{
+	border-radius: 0 !important;
+}
+.no-padding{
+	padding: 0 !important;
+}
+
+.box-akun .box-header{
+	padding: 0 !important;
+}
+.box-akun .box-header h2{
+	display: block;
+	font-size: 18px;
+}
+.akun-ul{
+	padding: 0;
+	list-style: none;
+}
+.akun-ul li{
+	display: block;
+}
+.akun-ul li span{
+	display: block;
+	float: left;
+	width: 25%;
+	font-weight: bold;
+	padding: 5px 0;
+	font-size: 12px
+}
+.akun-ul li a{
+	display: block;
+	width: 75%;
+	float: right;
+	text-decoration: none;
+	padding: 5px 0;
+	font-size: 12px
+}
+
+.tabel-konfirmasi tr,
+.tabel-konfirmasi th,
+.tabel-konfirmasi td{
+	border:0 !important;
+}
+.rights{
+	display: flex;
+	list-style: none;
+}
+.rights li a{
+	display: block;
+	padding: 10px 20px !important;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.rights li a:hover,
+.rights li a:focus{
+	text-decoration: none;
+	color: #d2d2d2;
+}
+.ket-ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ket-ul li{
+	margin: 20px 0;
+}
+span.ket{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+span.bg-orange{
+	background-color: orange;
+}
+span.bg-blue{
+	background-color: blue;
+}
+span.bg-green{
+	background-color: green;
+}
+span.bg-red{
+	background-color: red;
+}
+
+/*dropdown-notif*/
+.leftbar > .rights > .messages-menu > .dropdown-menu {
+  width: 280px;
+  padding: 0 0 0 0;
+  margin: 0;
+  top: 60px;
+  border:0;
+  left: -240px;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li{
+  position: relative;
+  list-style: none;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li.header{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ffffff;
+  padding: 7px 10px;
+  border-bottom: 1px solid #f4f4f4;
+  color: #444444;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li.footer > a{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 7px 10px;
+  border-bottom: 1px solid #eeeeee;
+  color: #444 !important;
+  text-align: center;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li.footer > a:hover{
+	text-decoration: none;
+  font-weight: normal;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li .menu{
+	max-height: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: hidden;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li .menu li > a{
+	display: block;
+  white-space: nowrap;
+  /* Prevent text from breaking */
+  border-bottom: 1px solid #f4f4f4;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu li .menu li > a:hover{
+	background: #f4f4f4;
+  text-decoration: none;
+}
+
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a {
+  margin: 0;
+  padding: 10px 10px;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a > div > img {
+  margin: auto 10px auto auto;
+  width: 40px;
+  height: 40px;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a > h4 {
+  padding: 0;
+  margin: 0;
+  color: #444444;
+  font-size: 12px;
+  position: relative;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a > h4 > small {
+  color: #999999;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a > p {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #888888;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a > p > span{
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a:before,
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  content: " ";
+  display: table;
+}
+.leftbar > .rights > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  clear: both;
+}
+

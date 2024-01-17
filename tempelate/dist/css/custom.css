@@ -1,0 +1,56 @@
+.table-img{
+	width: 50px;
+	height: 50px;
+	border: 2px solid #dedede;
+	padding: 3px;
+	border-radius: 50px;
+}
+.body-pemesanan{
+	display: flex !important;
+	justify-content: space-between;
+}
+.table-pemesanan{
+	width: 50%;
+}
+.dropdown-actions{
+	padding: 0 !important;
+}
+.dropdown-actions li.background-info{
+	background: #15b3cf;
+}
+.dropdown-actions li a{
+	display: block;
+	padding: 12px 10px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	transition: .5s ease;
+}
+
+.dropdown-actions li a:hover{
+	background: rgba(0,0,0,.2);
+	color: #FFF;
+}
+.list-acount{
+	padding: 0;
+	list-style: none;
+}
+.list-acount .acount-item{
+	display: block;
+	padding: 10px 0;
+	border-bottom: 2px solid #dedede;
+}
+.list-acount .acount-item .acount-item-name{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+.list-acount .acount-item .acount-item-name i{
+	margin-right: 10px;
+	color: rgba(3,199,187,0.9);
+}
+.list-acount .acount-item .acount-item-dest{
+	display: block;
+	margin-left: 25px;
+	font-size: 16px;
+}
